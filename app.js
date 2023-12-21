@@ -5,7 +5,6 @@ const flash = require('connect-flash');
 const methodOverride = require('method-override');
 
 // Passport configuration
-7
 require('./passport-config')(passport);
 const app = express();
 const routes = require('./routes/routes'); // Combined routes file
